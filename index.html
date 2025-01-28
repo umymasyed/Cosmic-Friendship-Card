@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Friendship Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-front">
+                <div class="cosmic-illustration">
+                    <div class="planet planet-1"></div>
+                    <div class="planet planet-2"></div>
+                    <div class="astronaut astronaut-1">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <div class="astronaut astronaut-2">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <div class="comet">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <h2 class="front-title">Cosmic Friendship</h2>
+                <p class="front-subtitle">Click to explore our universe <i class="fas fa-rocket"></i></p>
+            </div>
+            <div class="card-inside">
+                <div class="page page-1">
+                    <h3 class="inside-title">Our Stellar Bond</h3>
+                    <p class="inside-text">
+                        In the vast cosmos of life, our friendship shines brighter than any star. 
+                        You're my co-pilot through every adventure!
+                    </p>
+                    <div class="constellation">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                </div>
+                <div class="page page-2">
+                    <h3 class="inside-title">Galactic Memories</h3>
+                    <div class="memory-gallery">
+                        <div class="memory-photo">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="memory-photo">
+                            <i class="fas fa-meteor"></i>
+                        </div>
+                        <div class="memory-photo">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                    </div>
+                    <p class="inside-text">
+                        From earthly adventures to star-gazing nights, 
+                        every moment with you is out of this world!
+                    </p>
+                </div>
+                <div class="page page-3">
+                    <h3 class="inside-title">Cosmic Jokes</h3>
+                    <div class="joke-container">
+                        <p class="joke-text">Why don't aliens visit our planet?</p>
+                        <p class="joke-answer">Terrible ratings! One star!</p>
+                    </div>
+                    <button class="joke-button">New Joke</button>
+                </div>
+                <div class="page page-4">
+                    <h3 class="inside-title">Friendship Playlist</h3>
+                    <div class="playlist">
+                        <div class="song">
+                            <i class="fas fa-music"></i>
+                            <span>Mountains of Friendship</span>
+                        </div>
+                    </div>
+                    <div class="audio-player">
+                        <audio id="audio-element" src="Mountains of Friendship.mp3"></audio>
+                        <button id="play-pause"><i class="fas fa-play"></i></button>
+                        <input type="range" id="seek-slider" max="100" value="0">
+                    </div>
+                </div>
+                <div class="page page-5">
+                    <h3 class="inside-title">Infinite Friendship</h3>
+                    <p class="inside-text">
+                        Our friendship is like the universe - constantly expanding, 
+                        full of wonder, and infinitely amazing!
+                    </p>
+                    <p class="inside-signature">To infinity and beyond,</p>
+                    <p class="inside-name">Your Cosmic Companion <i class="fas fa-rocket"></i></p>
+                    <div class="supernova"></div>
+                </div>
+                <div class="navigation">
+                    <button class="nav-button prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="page-indicator">
+                        <span class="current-page">1</span> / <span class="total-pages">5</span>
+                    </div>
+                    <button class="nav-button next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
